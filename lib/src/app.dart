@@ -8,6 +8,9 @@ class App extends StatelessWidget {
         appBar: AppBar(
           title: const Text("Let's See Images!"),
         ),
+        body: Center(
+          child: Text("data"),
+        ),
         floatingActionButton: FloatingActionButton(
           onPressed: () {},
           child: Icon(Icons.add_a_photo_rounded),
